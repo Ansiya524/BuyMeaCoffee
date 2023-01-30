@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    height: 3000px;
+    font-family:Calibri Light;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 75%;
+    height: 71px;
+    background-color: white;
+    display: flex;
+    border-radius: 50px;
+    margin: 25px;
+    align-items: center;
+}
+.header-1{
+    display: flex;
+    margin: 10px;
+    position: relative;
+    top: 34px;
+    text-align: center;
+}
+.faq:hover{
+    background-color: rgb(210, 204, 204);
+    border-radius: 40px;
+}
+.explore-creators:hover{
+    background-color: rgb(210, 204, 204);
+    border-radius: 40px;
+}
+.log-in:hover{
+    background-color: rgb(210, 204, 204);
+    border-radius: 40px;
+}
+.header-2{
+    display: flex;
+    position: relative;
+    left: 869px;
+    bottom: 26px;
+    margin: 20px;
+    list-style: none;
+    border-radius: 40px;
+    text-align: center;
+}
+.icon{
+    position: relative;
+    height: 43px;
+    width: 29px;
+    left: 31px;
+}
+.icon img{
+    display: inline;
+    height: 43px;
+    width: 29px;
+}
+.header li{
+   margin: 20px;
+}
+.faq,.explore-creators,.log-in,.sign-up{
+    border-radius: 40px;
+    background-color: white;
+    height: 39px;
+}
+.main-text{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 65px;
+}
+.sub-text{
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    bottom: 20px;
+}
+.search{
+    position: relative;
+    height: 81px;
+    width: 38%;
+    left: 470px;
+    background-color: white;
+    border-radius: 40px;
+}
+.search-text{
+    position: relative;
+    top: 26px;
+    left: 23px;
+}
+input{
+    outline: none;
+    position: relative;
+    left: 256px;
+    height: 26px;
+    border: none;
+    width: 167px;
+    bottom: 36px;
+    font-size: 19px;
+}
+button{
+    border-radius: 45px;
+    height: 57px;
+    width: 165px;
+    background-color: rgb(255 221 0);
+    position: relative;
+    left: 225px;
+    bottom: 37px;
+    border: none;
+}
+.img-body{
+    height: 420px;
+    width: 63%;
+    background-color: whitesmoke(233, 14, 14, 0.933);
+    position: relative;
+    left: 276px;
+    top: 169px;
+}
+.nav-bar{
+    height: 55px;
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: space-around;
+}
+.li:hover{
+    padding: 10px;
+    background-color: rgb(210, 204, 204);
+    border-radius: 40px;
+}
+.img{
+    display: flex;
+    height: 205px;
+    
+}
+.one,.two,.three,.four {
+    height: 205px;
+    flex: 1;
+    background-color: whitesmoke;
+   padding-left: 14px;
+}
+.img a{
+    text-decoration: none;
+    color: black;
+}
+.posion{
+    position: relative;
+    height: 3186px;
+    width: 1508px;
+    background-color: #e997cc17;
+    bottom: -107px;
+    left: -265px;
+   
+}
+.sub-head{
+    font-size: 19px;
+    color: gray;
+    padding-top: 80px;
+    text-align: center;
+}
+.big-head{
+    font-size: 52px;
+    color: black;
+    text-align: center;
+}
+.para{
+    text-align: center;
+    font-size: 23px;
+    line-height: 30px;
+}
+.im-1{
+    width: 806px;
+    height: 600px;
+    position: relative;
+    left: 367px;
+    top: 40px;
+}
+.last-body{
+    height: 1200px;
+    background-color: #ffffff;
+    position: relative;
+    width: 1521px;
+    right: 277px;
+    top: 75px;
+}
+.last-button{
+    border-radius: 45px;
+    height: 60px;
+    width: 302px;
+    background-color: rgb(255 221 0);
+    position: relative;
+    left: 607px;
+    bottom: -140px;
+    border: none;
+}
+.lastt{
+    position: relative;
+    color: black;
+    bottom: -246px;
+    text-decoration: none;
+     font-weight: bold;
+}
+.youtube-icon{
+    height: 30px;
+    top: 204px;
+    width: 30px;
+    left: 1076px;
+    position: relative;
+}
+.twitter-icon{
+    height: 30px;
+    top: 203px;
+    width: 30px;
+    left: 1089px;
+    position: relative;
+}
